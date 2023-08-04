@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Food Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Food Hub Logo">
+            <span>The Food Hub</span>
+        </div>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#dishes">Dishes</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#order">Place Order</a></li>
+        </ul>
+    </nav>
+
+    <!-- User Account Section -->
+    <section id="account-section">
+        <h2>Create an Account</h2>
+        <form id="signup-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <div class="menu-section">
+            <h2>Menu</h2>
+            <!-- Add menu items with images -->
+            <div class="menu-item">
+                <img src="item1.jpg" alt="Item 1">
+                <h3>Item 1</h3>
+                <p>Delicious description of Item 1.</p>
+                <span>$10</span>
+            </div>
+            <div class="menu-item">
+                <!-- Item 2 -->
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+
+        <div class="dishes-section">
+            <!-- Add dishes details here -->
+        </div>
+
+        <div class="review-section">
+            <!-- Add customer reviews here -->
+        </div>
+
+        <div class="order-section">
+            <!-- Add order form here -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
